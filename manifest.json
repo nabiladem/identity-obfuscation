@@ -4,20 +4,20 @@
     "description": "Cookies stored on the browser form much of how we see the web. Swapping cookies is a way to hide one's identity and see the web through someone else's eyes.",
     "version": "1.0",
     "icons": {
-        "16": "images/icon16x16-v1.png",
-        "48": "images/icon48x48-v1.png",
-        "128": "images/icon128x128-v1.png"
+        "16": "window/images/icon128x128-v1.png",
+        "48": "window/images/icon128x128-v1.png",
+        "128": "window/images/icon128x128-v1.png"
     },
     "action": {
-        "defaul_icon": "images/icon16x16-v1.png",
-        "default_popup": "popup.html"
+        "defaul_icon": "window/images/icon128x128-v1.png",
+        "default_popup": "window/popup.html"
     },
     "content_scripts": [
         {
             "permissions": ["cookies", "scripting"],
             "matches": ["<all_urls>"],
-            "html": ["popup.html"],
-            "css": ["popup.css"],
+            "html": ["window/popup.html"],
+            "css": ["window/popup.css"],
             "js": ["scripts/cookies.js"]
         }
     ]
