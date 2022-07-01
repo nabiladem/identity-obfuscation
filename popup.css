@@ -1,0 +1,40 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font-family: 'Roboto';
+	font-size: 14px;
+	margin: 0;
+	min-height: 180px;
+	padding: 0;
+	width: 384px;
+}
+
+.icon {
+	width: 100px;
+}
+
+h1 {
+	font-family: 'Helvetica';
+	font-size: 22px;
+	font-weight: 400;
+	margin-top: 0;
+	color: #000;
+}
+
+.tools {
+	margin-top: 45px;
+	display: flex;
+}
+
+.export {
+	margin-left: 50px;
+	padding-right: 50px;
+}
+
+.import {
+	padding-right: 50px;
+}
