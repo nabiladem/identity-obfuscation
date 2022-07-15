@@ -9,26 +9,30 @@
         
 </head>
 <body>
-
-    <div class="header">
-        <h1 class="image">
-            <img src="images/icon128x128-v1.png" alt="Identity Swapping" class="icon"> Identity Swapping <span class="version">(1.0)</span>
+        <div class="header">
+                <h1 class="image">
+                <img src="images/icon128x128-v1.png" alt="Identity Swapping" class="icon"> Identity Swapping <span class="version">(1.0)</span>
         
-        </h1>
-    </div>
-
-    <div class="tools">
-        <div class="export">
-            <button id="export">Export Cookies</button>
+                </h1>
         </div>
 
-        <div class="import">
-            <button id="import">Import Cookies</button>
-        </div>
+        Domain&nbsp;<input type="text" id="id_domain" size=50 value=""><br>
         
-    </div>
+        <div class="tools">
+                <div class="export">
+                        <button id="id_button_export">Export Cookies</button>
+                </div>
 
-    <script src="/scripts/cookies.js"></script>
+                <div class="import">
+                        <button id="import">Import Cookies</button>
+                </div>
+        </div>
+
+        <div class="output">
+                <textarea id="id_text" cols="65" rows="10"></textarea>
+        </div>
+
+        <script src="/scripts/cookies.js"></script>
 
 </body>
 </html>
